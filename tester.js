@@ -1,6 +1,6 @@
 let user = 'mike';
 
-let friendCount = ;
+let friendCount;
 
 let message, messageColor;
 
