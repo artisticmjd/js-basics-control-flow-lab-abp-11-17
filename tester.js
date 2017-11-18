@@ -1,10 +1,10 @@
-let user = '';
+let user;
 
 let friendCount = 3;
 
 let message, messageColor;
 
-if (user || friendCount) {
+if (user && friendCount) {
   message = `Hi ${user}! You have ${friendCount} ${friendCount === 1 ? 'friend' : 'friends'}!`;
 } else {
   if (user) {
