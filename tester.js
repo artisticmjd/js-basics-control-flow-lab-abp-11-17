@@ -1,17 +1,17 @@
-let user = true;
+let user;
 
 let friendCount = 3;
 
 let message, messageColor;
-user = false;
+
 if (user && friendCount) {
   message = `Hi ${user}! You have ${friendCount} ${friendCount === 1 ? 'friend' : 'friends'}!`;
 
 } else {
   if (user) {
     message = 'Please sign in.';
-  } else {
-    message = 'Link up with your friends to get the most out of Flatbook!';
+  //} else {
+    //message = 'Link up with your friends to get the most out of Flatbook!';
   }
 }
 // => "Hi Charles Babbage! You have 3 friends!"
