@@ -25,4 +25,4 @@ if (message === 'Please sign in.' || message === 'Link up with your friends to g
   messageColor = 'rainbow';
 }
 // => "blue"
-console.log(`$user`+ message)
+console.log(`${user}`+ message)
