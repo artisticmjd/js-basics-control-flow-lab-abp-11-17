@@ -8,7 +8,7 @@ if (user && friendCount) {
   message = `Hi ${user}! You have ${friendCount} ${friendCount === 1 ? 'friend' : 'friends'}!`;
   user = false;
 } else {
-  if (user) {
+  if (!user) {
     message = 'Please sign in.';
   } else {
     message = 'Link up with your friends to get the most out of Flatbook!';
