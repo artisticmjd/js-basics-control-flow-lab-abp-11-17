@@ -3,10 +3,10 @@ let user = true;
 let friendCount = 3;
 
 let message, messageColor;
-
+user = false;
 if (user && friendCount) {
   message = `Hi ${user}! You have ${friendCount} ${friendCount === 1 ? 'friend' : 'friends'}!`;
-  user = false;
+  
 } else {
   if (!user) {
     message = 'Please sign in.';
