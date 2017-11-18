@@ -6,6 +6,7 @@ let message, messageColor;
 
 if (user && friendCount) {
   message = `Hi ${user}! You have ${friendCount} ${friendCount === 1 ? 'friend' : 'friends'}!`;
+  user = false;
 } else {
   if (user) {
     message = 'Please sign in.';
