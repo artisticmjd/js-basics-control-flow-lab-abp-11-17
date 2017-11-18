@@ -1,4 +1,4 @@
-let user = '';
+let user = 'billyy';
 
 let friendCount = 3;
 
@@ -25,4 +25,4 @@ if (message === 'Please sign in.' || message === 'Link up with your friends to g
   messageColor = 'rainbow';
 }
 // => "blue"
-console.log(`${user}`+ message + user)
+console.log(`${user}`+ message)
