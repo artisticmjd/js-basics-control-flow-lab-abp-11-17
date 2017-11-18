@@ -26,4 +26,4 @@ if (message === 'Please sign in.' || message === 'Link up with your friends to g
 }
 // => "blue"
 
-console.log(`${user}`+ message)
+console.log(`${user}`+ message + user)
