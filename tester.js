@@ -1,4 +1,4 @@
-let user;
+let user = false;
 
 let friendCount = 3;
 
